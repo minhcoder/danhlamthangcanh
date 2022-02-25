@@ -1,0 +1,71 @@
+@media only screen and (min-width: 992px) {
+/ * Cho máy tính để bàn: * /
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+  .content{
+    width: inherit;
+        background-image: url('vietnam.jpg');
+        background-size: cover;
+        height: 500px;
+        position: relative;
+  }
+  .box-model{
+    background-color: white;
+  }
+  h1 {
+    font-size: 50px;
+    line-height: 0.05;
+    position: absolute;
+    left:65px;
+    top:138px;
+    color:white;
+  }
+  .content p{
+    color:white;
+    position: absolute;
+    left:65px;
+    top:190px;
+  }
+  .color1 h3{
+    line-height: 0.7;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+    .color1 p{
+    line-height: 0;
+    margin-left: 10px;
+  }
+  
+  .color1{
+    background-color: #e6e6e6;
+  }
+  .footer h3{
+    font-family: Arial;
+    line-height: 0.05;
+    font-size: 20px;
+    margin: 20px;
+  }
+  .footer .soc{
+    color: blue;
+    text-decoration: none;
+  }
+  .footer p,
+  .li1 a{
+       margin: 20px;
+  }
+  .footer{
+    background-color: #f2f2f2;
+    padding: 30px;
+  }
+}

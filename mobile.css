@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+body {
+ font-family: 'Bona Nova';
+}
+h1,h3{
+  font-family: Bona Nova;
+  font-size: 40px;
+}
+   #wrapper {
+  max-width: 1300px;
+  margin: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Cho điện thoại di động: */
+[class*="col-"] {
+  width: 100%;
+  float:left;
+}
+
+.box-model{
+  background-color: #9b9595;
+  padding: 20px 50px 40px;
+
+}
+.box-model ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+ 
+ ul.left li{
+    float:left;}
+ ul.right li{
+  float: right;}
+
+
+.li1 a{
+  color: black;
+    text-align: center;
+   display: inline;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 40px;
+}
+
+
+.content{
+  margin: 0px;
+  padding: 50px;
+  border-bottom-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.color1{
+  float:left;
+  margin: 0;
+  padding: 20px 40px 10px;
+}
+.footer{
+  margin: 0;
+  padding: 20px 40px 10px;
+  float:left;
+  text-decoration: none;
+}
+
+.footer a{
+   text-decoration: none;
+}
+img{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.socials-share {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.socials-share a {
+    padding: 4px 30px;
+    color: #fff;
+    line-height: 2em;
+    text-decoration: none;
+    border-radius: 2px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.socials-share span.fa {
+    margin-right: 3px;
+}
+
+.bg-facebook {
+    background: #3a5899;
+}
+
+.bg-facebook:hover, .bg-facebook:focus {
+    background: #1d418d;
+}
+
+.bg-twitter {
+    background: #00acee;
+}
+
+.bg-twitter:hover, .bg-twitter:focus {
+    background: #0b93c7;
+}
+
+.bg-email {
+    background: #dd5348;
+}
+
+.bg-email:hover, .bg-email:focus {
+    background: #ce3f34;
+}
